@@ -1,0 +1,20 @@
+.SecondHeader {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    /* background: url(/assets/secondHeader.png), linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)); */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(/assets/secondHeader.png);
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed;
+}
+
+
+@media(max-width:768px) {
+    .SecondHeader {
+        height: 40vh;
+        width: 100%;
+    }
+}

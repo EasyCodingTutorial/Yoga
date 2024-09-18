@@ -1,0 +1,31 @@
+.Btn {
+    width: max-content;
+    background: var(--main);
+    color: #fff;
+    font-weight: 700;
+    padding: 8px 22px;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+@media(max-width:990px) {
+    .Btn {
+        padding: 6px 20px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:770px) {
+    .Btn {
+        padding: 5px 18px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:550px) {
+    .Btn {
+        padding: 5px 15px;
+        font-size: 13px;
+    }
+}
